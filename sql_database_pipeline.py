@@ -384,11 +384,11 @@ def load_select_tables_from_database():
 
     # Select specific tables to ingest
     source = sql_database(credentials).with_resources(
-        "Person",
-        "Address",
-        "Product",
-        "ProductCategory",
-        "ProductSubcategory"
+        "Customer",
+        "SalesOrderDetail",
+        "SalesOrderHeader",
+        "SpecialOffer",
+        "SpecialOfferProduct"
     )
 
 
