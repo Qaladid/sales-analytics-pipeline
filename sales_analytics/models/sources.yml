@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: staging
+    database: SALES_ANALYTICS
+    schema: STAGING
+    tables:
+      - name: CUSTOMER
+      - name: SALES_ORDER_DETAIL
+      - name: SALES_ORDER_HEADER
+      - name: SPECIAL_OFFER
+      - name: SPECIAL_OFFER_PRODUCT
