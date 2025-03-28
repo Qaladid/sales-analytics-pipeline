@@ -29,6 +29,11 @@ seeds:
       file: "special_offer.csv"  # Specify the name of your CSV file here
       delimiter: ","             # The delimiter for the CSV file (default is comma)
       header: true               # Ensure the first row is treated as header (default is true)
+    
+    product_category:
+      file: "product_category.csv"  # Specify the name of your Product_Category CSV file
+      delimiter: ","               # The delimiter for the CSV file (default is comma)
+      header: true   
 
 
 # Configuring models
