@@ -34,6 +34,11 @@ seeds:
       file: "product_category.csv"  # Specify the name of your Product_Category CSV file
       delimiter: ","               # The delimiter for the CSV file (default is comma)
       header: true   
+      
+    product_subcategory:
+      file: "product_subcategory.csv"  # Specify the name of your Product_Subcategory CSV file
+      delimiter: ","                 # The delimiter for the CSV file (default is comma)
+      header: true 
 
 
 # Configuring models

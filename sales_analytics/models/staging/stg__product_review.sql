@@ -1,0 +1,15 @@
+{{ config(
+    materialized='view' 
+) }}
+
+SELECT
+    PRODUCT_REVIEW_ID,
+    PRODUCT_ID,
+    REVIEWER_NAME,
+    REVIEW_DATE::DATE AS REVIEW_DATE,  
+    EMAIL_ADDRESS,
+    RATING,
+    COMMENTS,
+    MODIFIED_DATE::DATE AS MODIFIED_DATE 
+FROM {{ source('staging', 'PRODUCT_REVIEW') }}
+WHERE PRODUCT_REVIEW_ID IS NOT NULL  
