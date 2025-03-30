@@ -8,7 +8,6 @@ sources:
       - name: CUSTOMER
       - name: SALES_ORDER_DETAIL
       - name: SALES_ORDER_HEADER
-      - name: SPECIAL_OFFER
       - name: SPECIAL_OFFER_PRODUCT
       - name: PRODUCT_REVIEW
       - name: BUSINESS_ENTITY_ADDRESS
