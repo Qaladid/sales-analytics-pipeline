@@ -22,4 +22,5 @@ SELECT
     ROWGUID,
     MODIFIED_DATE
 FROM 
-    customer_data
+    customer_data;
+

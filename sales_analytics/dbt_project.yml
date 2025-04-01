@@ -49,7 +49,7 @@ seeds:
 # files using the `{{ config(...) }}` macro.
 models:
   sales_analytics:
-    # Config indicated by + and applies to all files under models/example/
-      +materialized: view
-
+    marts:
+      +materialized: table
+  
            
