@@ -20,6 +20,17 @@ def load_select_tables_from_database():
 
     # Select specific tables to ingest
     source = sql_database(credentials).with_resources(
+        "Customer",
+        "Product",
+        "ProductCategory",
+        "ProductSubcategory",
+        "ProductReview",
+        "SpecialOffer",
+        "SpecialOfferProduct",
+        "Person",
+        "Address",
+        "SalesOrderHeader",
+        "SalesOrderDetail",
         "BusinessEntityAddress"
     )
 
