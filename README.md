@@ -238,7 +238,7 @@ Now that your data is in **Snowflake**, the next step is to integrate Power BI t
 
 Below is a screenshot of the **Power BI dashboard** showcasing total sales, top-selling products, and customer segments:
 
-![Power BI Dashboard](power_bi_dashboard.png)
+![Power BI Dashboard](power_BI_dashboard.png)
 
 This visualization helps stakeholders quickly assess business performance.
 
