@@ -132,7 +132,7 @@ To view and monitor the status of your DLT pipeline, use the following command:
 ```bash
 dlt pipeline sql_database_pipeline show
 ```
- ![Dashboard](images/streamlit_dashboard.png)
+ ![DLT Dashboard](images/streamlit_dashboard.png)
 
 
 ### Step 1: Set Up Snowflake
@@ -233,6 +233,14 @@ Now that your data is in **Snowflake**, the next step is to integrate Power BI t
      - **Customer Segmentation** based on spending behavior
 
 ---
+
+## Example Power BI Dashboard Screenshot
+
+Below is a screenshot of the **Power BI dashboard** showcasing total sales, top-selling products, and customer segments:
+
+![Power BI Dashboard](power_bi_dashboard.png)
+
+This visualization helps stakeholders quickly assess business performance.
 
 ## Conclusion
 
